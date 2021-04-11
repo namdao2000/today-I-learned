@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\namda\\today-I-learned\\back-end\\build\\logs\\info\\.8cb5c35774b31152a0f18693926e1f17baa56ecd-audit.json",
+    "files": [
+        {
+            "date": 1618124585625,
+            "name": "C:\\Users\\namda\\today-I-learned\\back-end\\build\\logs\\info\\2021-04-11.log",
+            "hash": "863148d26aaecbdf4f8406e2509b7e95"
+        }
+    ]
+}
