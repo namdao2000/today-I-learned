@@ -7,14 +7,10 @@ import { ProgressbarModule } from "ngx-bootstrap/progressbar";
 import { TooltipModule } from "ngx-bootstrap/tooltip";
 import { BsDropdownModule } from "ngx-bootstrap/dropdown";
 
-import { DashboardComponent } from "./dashboard/dashboard.component";
-import { AlternativeComponent } from "./alternative/alternative.component";
-
-import { RouterModule } from "@angular/router";
-import { DashboardsRoutes } from "./dashboards.routing";
+import { HomeComponent } from "./home.component";
 
 @NgModule({
-  declarations: [DashboardComponent, AlternativeComponent],
+  declarations: [HomeComponent],
   imports: [
     CommonModule,
     ComponentsModule,
@@ -22,8 +18,7 @@ import { DashboardsRoutes } from "./dashboards.routing";
     ProgressbarModule.forRoot(),
     TooltipModule.forRoot(),
     BsDropdownModule.forRoot(),
-    RouterModule.forChild(DashboardsRoutes)
   ],
-  exports: [DashboardComponent, AlternativeComponent]
+  exports: [HomeComponent]
 })
-export class DashboardsModule {}
+export class HomeModule {}

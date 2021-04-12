@@ -6,6 +6,7 @@ import { BrowserModule } from "@angular/platform-browser";
 import { AdminLayoutComponent } from "./layouts/admin-layout/admin-layout.component";
 import { AuthLayoutComponent } from "./layouts/auth-layout/auth-layout.component";
 import { PresentationComponent } from "./pages/presentation/presentation.component";
+import {HomeComponent} from "./pages/home/home.component";
 
 const routes: Routes = [
   {
@@ -22,8 +23,8 @@ const routes: Routes = [
     component: AdminLayoutComponent,
     children: [
       {
-        path: "dashboards",
-        loadChildren: "./pages/dashboards/dashboards.module#DashboardsModule"
+        path: "home",
+        component: HomeComponent
       },
       {
         path: "components",
@@ -72,7 +73,7 @@ const routes: Routes = [
   },
   {
     path: "**",
-    redirectTo: "dashboard"
+    redirectTo: "home"
   }
 ];
 

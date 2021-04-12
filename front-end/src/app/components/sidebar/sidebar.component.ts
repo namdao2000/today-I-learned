@@ -32,7 +32,7 @@ export interface ChildrenItems2 {
 //Menu Items
 export const ROUTES: RouteInfo[] = [
   {
-    path: "/dashboards",
+    path: "/home",
     title: "Dashboards",
     type: "sub",
     icontype: "ni-shop text-primary",
