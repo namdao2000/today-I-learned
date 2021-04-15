@@ -5,8 +5,6 @@ import { FormsModule } from "@angular/forms";
 import { AuthLayoutRoutes } from "./auth-layout.routing";
 
 import { LoginComponent } from "../../pages/examples/login/login.component";
-import { PricingComponent } from "../../pages/examples/pricing/pricing.component";
-import { LockComponent } from "../../pages/examples/lock/lock.component";
 import { RegisterComponent } from "../../pages/examples/register/register.component";
 
 @NgModule({
@@ -17,8 +15,6 @@ import { RegisterComponent } from "../../pages/examples/register/register.compon
   ],
   declarations: [
     LoginComponent,
-    PricingComponent,
-    LockComponent,
     RegisterComponent
   ]
 })

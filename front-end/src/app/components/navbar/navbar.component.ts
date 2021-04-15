@@ -1,5 +1,4 @@
 import {Component, OnInit, ElementRef} from "@angular/core";
-import {ROUTES} from "../sidebar/sidebar.component";
 import {Router, Event, NavigationStart, NavigationEnd, NavigationError} from '@angular/router';
 
 import {
@@ -14,7 +13,6 @@ import {
     styleUrls: ["./navbar.component.scss"]
 })
 export class NavbarComponent implements OnInit {
-    public listTitles: any[];
     public location: Location;
     sidenavOpen: boolean = true;
 
@@ -50,24 +48,7 @@ export class NavbarComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.listTitles = ROUTES.filter(listTitle => listTitle);
     }
-
-    getTitle() {
-        var titlee = this.location.prepareExternalUrl(this.location.path());
-        if (titlee.charAt(0) === "#") {
-            titlee = titlee.slice(1);
-        }
-
-        for (var item = 0; item < this.listTitles.length; item++) {
-            if (this.listTitles[item].path === titlee) {
-                return this.listTitles[item].title;
-            }
-        }
-        return "Dashboard";
-    }
-
-
 
     openSidebar() {
         if (document.body.classList.contains("g-sidenav-pinned")) {

@@ -7,7 +7,6 @@ import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true
 };
-import { SidebarComponent } from "./sidebar/sidebar.component";
 import { NavbarComponent } from "./navbar/navbar.component";
 import { FooterComponent } from "./footer/footer.component";
 import { VectorMapComponent1 } from "./vector-map/vector-map.component";
@@ -31,13 +30,11 @@ import { BsDropdownModule } from "ngx-bootstrap/dropdown";
     FooterComponent,
     VectorMapComponent1,
     NavbarComponent,
-    SidebarComponent
   ],
   exports: [
     FooterComponent,
     VectorMapComponent1,
     NavbarComponent,
-    SidebarComponent
   ],
   providers: [
     {

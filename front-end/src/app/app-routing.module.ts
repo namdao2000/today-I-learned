@@ -5,54 +5,30 @@ import { BrowserModule } from "@angular/platform-browser";
 
 import { AdminLayoutComponent } from "./layouts/admin-layout/admin-layout.component";
 import { AuthLayoutComponent } from "./layouts/auth-layout/auth-layout.component";
-import { PresentationComponent } from "./pages/presentation/presentation.component";
-import {HomeComponent} from "./pages/home/home.component";
+import { HomeComponent } from "./pages/home/home.component";
+import {FeedComponent} from "./pages/feed/feed.component";
 
 const routes: Routes = [
   {
     path: "",
-    redirectTo: "presentation",
+    redirectTo: "home",
     pathMatch: "full"
   },
   {
-    path: "presentation",
-    component: PresentationComponent
+    path: "home",
+    component: HomeComponent
   },
   {
     path: "",
     component: AdminLayoutComponent,
     children: [
       {
-        path: "home",
-        component: HomeComponent
+        path: "feed",
+        component: FeedComponent
       },
       {
         path: "components",
         loadChildren: "./pages/components/components.module#ComponentsModule"
-      },
-      {
-        path: "forms",
-        loadChildren: "./pages/forms/forms.module#FormsModules"
-      },
-      {
-        path: "tables",
-        loadChildren: "./pages/tables/tables.module#TablesModule"
-      },
-      {
-        path: "maps",
-        loadChildren: "./pages/maps/maps.module#MapsModule"
-      },
-      {
-        path: "widgets",
-        loadChildren: "./pages/widgets/widgets.module#WidgetsModule"
-      },
-      {
-        path: "charts",
-        loadChildren: "./pages/charts/charts.module#ChartsModule"
-      },
-      {
-        path: "calendar",
-        loadChildren: "./pages/calendar/calendar.module#CalendarModule"
       },
       {
         path: "examples",
@@ -73,7 +49,7 @@ const routes: Routes = [
   },
   {
     path: "**",
-    redirectTo: "home"
+    redirectTo: "feed"
   }
 ];
 

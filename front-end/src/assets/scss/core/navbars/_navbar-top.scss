@@ -13,12 +13,6 @@
     padding-right: 15px;
   }
 
-  @include media-breakpoint-up(sm) {
-    .navbar-brand {
-      display: none;
-    }
-  }
-
   @include media-breakpoint-down(xs) {
     .navbar-collapse {
       width: 100%;
@@ -44,14 +38,6 @@
 
     &.navbar-light {
       border-color: rgba(0, 0, 0, 0.04) !important;
-    }
-  }
-}
-
-.sidenav-pinned {
-  .navbar-top {
-    .navbar-brand {
-      display: none;
     }
   }
 }

@@ -20,29 +20,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3516e62d-fd17-4026-8e2e-31fe7b1b161c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front-end/src/app/pages/home/home.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/app/pages/home/home.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/app/pages/home/home.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/app/models/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/app/pages/feed/feed.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/app/pages/feed/feed.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/app/pages/feed/feed.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/app/pages/feed/feed.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/footer/footer.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/footer/footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/footer/footer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/components.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/components.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/app/components/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/navbar/navbar.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/app/components/navbar/navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/navbar/navbar.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/sidebar/sidebar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/sidebar/sidebar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/sidebar/sidebar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/sidebar/sidebar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/models/post.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/sidebar/sidebar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/sidebar/sidebar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/layouts/admin-layout/admin-layout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/layouts/admin-layout/admin-layout.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/app/layouts/auth-layout/auth-layout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/layouts/auth-layout/auth-layout.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/dashboards/alternative/alternative.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/dashboards/alternative/alternative.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/dashboards/dashboard/dashboard.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/dashboards/dashboard/dashboard.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/dashboards/dashboards.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/pages/home/home.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/dashboards/dashboards.routing.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/presentation/presentation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/pages/presentation/presentation.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/assets/scss/core/icons/_icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/scss/core/icons/_icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/layouts/auth-layout/auth-layout.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/layouts/auth-layout/auth-layout.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/layouts/auth-layout/auth-layout.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/layouts/auth-layout/auth-layout.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/calendar/calendar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/calendar/calendar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/calendar/calendar.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/calendar/calendar.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/charts/charts.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/charts/charts.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/charts/charts.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/charts/charts.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/buttons/buttons.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/buttons/buttons.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/cards/cards.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/cards/cards.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/components.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/components.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/components/components.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/components/components.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/grid/grid.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/grid/grid.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/icons/icons.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/icons/icons.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/notifications/notifications.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/notifications/notifications.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/typography/typography.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/components/typography/typography.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/examples/lock/lock.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/examples/lock/lock.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/examples/pricing/pricing.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/examples/pricing/pricing.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/forms/components/components.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/forms/components/components.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/forms/elements/elements.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/forms/elements/elements.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/forms/forms.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/forms/forms.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/forms/validation/validation.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/forms/validation/validation.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/pages/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/pages/home/home.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/pages/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/home/home.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/pages/home/home.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/maps/google/google.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/maps/google/google.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/maps/maps.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/maps/maps.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/maps/vector/vector-map.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/maps/vector/vector.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/maps/vector/vector.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/maps/vector/vector.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/presentation/presentation.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/presentation/presentation.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/presentation/presentation.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/pages/home/home.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/presentation/presentation.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/presentation/presentation.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/tables/ngxdatatables/ngxdatatables.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/tables/ngxdatatables/ngxdatatables.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/tables/sortable/sortable.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/tables/sortable/sortable.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/tables/tables.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/tables/tables.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/tables/tables/tables.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/tables/tables/tables.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/widgets/widgets.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/widgets/widgets.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/widgets/widgets.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/pages/widgets/widgets.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/assets/scss/core/navbars/_navbar-top.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/scss/core/navbars/_navbar-top.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/assets/scss/core/navbars/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/scss/core/navbars/_navbar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +126,9 @@
     <dismissed value="$PROJECT_DIR$/front-end/package.json" />
   </component>
   <component name="ProjectId" id="1r0r2laUY7aN4nGT9mEqMeCScvN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -102,6 +168,10 @@
       <updated>1618123643630</updated>
       <workItem from="1618123645080" duration="14902000" />
       <workItem from="1618181490964" duration="3799000" />
+      <workItem from="1618199060667" duration="2780000" />
+      <workItem from="1618301915800" duration="111000" />
+      <workItem from="1618371486277" duration="6072000" />
+      <workItem from="1618453210134" duration="1579000" />
     </task>
     <servers />
   </component>
@@ -129,9 +199,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618124412781" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1618183615954">
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1618376262092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618183615954" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618376262092" />
+    <state x="2587" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618199435474" />
   </component>
 </project>
