@@ -7,6 +7,7 @@ import { AdminLayoutComponent } from "./layouts/admin-layout/admin-layout.compon
 import { AuthLayoutComponent } from "./layouts/auth-layout/auth-layout.component";
 import { HomeComponent } from "./pages/home/home.component";
 import {FeedComponent} from "./pages/feed/feed.component";
+import {ProfileComponent} from "./pages/profile/profile.component";
 
 const routes: Routes = [
   {
@@ -25,6 +26,10 @@ const routes: Routes = [
       {
         path: "feed",
         component: FeedComponent
+      },
+      {
+        path: "profile",
+        component: ProfileComponent
       },
       {
         path: "components",

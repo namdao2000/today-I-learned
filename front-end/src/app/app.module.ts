@@ -22,7 +22,7 @@ import { AppRoutingModule } from './app-routing.module';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-    AuthLayoutComponent
+    AuthLayoutComponent,
   ],
   imports: [
     BrowserAnimationsModule,
