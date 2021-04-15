@@ -1,4 +1,5 @@
 import {Component, OnInit} from "@angular/core";
+import {Post} from "../../models/post";
 
 // core components
 
@@ -8,6 +9,7 @@ import {Component, OnInit} from "@angular/core";
     styleUrls: ["feed.component.scss"]
 })
 export class FeedComponent implements OnInit {
+    public posts: Post[];
     public focus: boolean;
 
     constructor() {
